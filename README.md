@@ -32,6 +32,16 @@ Assignment for speakx. The deliverable include: a jupyter file containing the co
 ### Model conclusions: 
 All of the models have almost same accuracy and other metrics. We can achieve better accuracy by feature engineering but being a dataset of almost all categorical values, its difficult to find which columns is more correlated to the target, or even which columns are highly correlated with each other, which makes it difficult to add or remove columns from this dataset. 
 
+| Models        | Accuracy |
+----------------|-----------
+| Random forest |    78%   |
+| Logistic Regresion | 77%  |
+| Gradient Boost Algorithm | 76% |
+| SVC |  77%   |
+
+
+
+
 ## Challenges 
 - Almost all categorical values, makes it difficult to find correlation between target and other columns
 - Data was imbalanced and heavy oversampling was used
